@@ -1,0 +1,7 @@
+README:
+I am required to perform inverted index search over the union of the item name, category, and description attributes. According to my database design, I design choice as follows.
+
+index/attribute
+itemid/Item.itemid
+name/Item.name
+content/Item.name+[Category.category]+Item.description
